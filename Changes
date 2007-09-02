@@ -1,6 +1,10 @@
 Revision history for Perl extension Unicode::Semantics.
 
-0.01  Thu Aug 30 09:27:19 2007
-	- original version; created by h2xs 1.23 with options
-		-X -n Unicode::Semantics
+0.02  Sun Sep 2 17:34:61 2007
+        - abeltje wrote a new test on a dvorak keyboard! :)
+        - A whole bunch of other new tests
+        - Documentation improvements
 
+0.01  Thu Aug 30 09:27:19 2007
+        - Released during YAPC::Europe 2007 (Vienna)
+        - See http://juerd.nl/files/slides/2007yapceu/unicodesemantics.html

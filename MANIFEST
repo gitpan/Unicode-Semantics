@@ -2,6 +2,9 @@ Changes
 Makefile.PL
 MANIFEST
 README
-t/Unicode-Semantics.t
+t/00basic.t
+t/01charclass.t
+t/02uc.t
+t/03lc.t
 lib/Unicode/Semantics.pm
 META.yml                                 Module meta-data (added by MakeMaker)
