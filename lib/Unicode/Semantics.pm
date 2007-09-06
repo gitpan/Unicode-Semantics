@@ -1,6 +1,6 @@
 package Unicode::Semantics;
-use Exporter 'import';
-$VERSION = "1.01";
+use base 'Exporter';
+$VERSION = "1.02";
 @EXPORT = qw(us up);
 
 sub us ($) {
@@ -21,7 +21,7 @@ Unicode::Semantics - Work around *the* Perl 5 Unicode bug
 =head1 SYNOPSIS
 
     $foo;     # could be anything
-    up $foo:  # force Unicode semantics
+    up $foo;  # force Unicode semantics
 
 or:
 
